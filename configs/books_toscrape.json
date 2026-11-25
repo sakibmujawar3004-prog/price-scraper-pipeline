@@ -1,0 +1,17 @@
+{
+  "name": "books-toscrape",
+  "start_urls": [
+    "https://books.toscrape.com/catalogue/page-1.html"
+  ],
+  "default_currency": "GBP",
+  "listing": {
+    "item_link": "article.product_pod h3 a",
+    "next_page": "li.next a"
+  },
+  "product": {
+    "title": "div.product_main h1",
+    "price": "div.product_main p.price_color",
+    "availability": "div.product_main p.availability",
+    "sku": "table.table-striped tr:nth-of-type(1) td"
+  }
+}

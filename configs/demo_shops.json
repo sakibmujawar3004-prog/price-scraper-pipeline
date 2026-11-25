@@ -1,0 +1,102 @@
+[
+  {
+    "name": "uk-books",
+    "start_urls": [
+      "{BASE}/uk-books/page-1.html"
+    ],
+    "default_currency": "GBP",
+    "listing": {
+      "item_link": "a.product-link",
+      "next_page": "a.next"
+    },
+    "product": {
+      "title": "h1.title",
+      "price": "p.price",
+      "availability": "p.stock",
+      "sku": {
+        "css": "span.sku",
+        "regex": "SKU:\\s*(\\S+)"
+      }
+    }
+  },
+  {
+    "name": "de-technik",
+    "start_urls": [
+      "{BASE}/de-technik/page-1.html"
+    ],
+    "default_currency": "EUR",
+    "listing": {
+      "item_link": "a.product-link",
+      "next_page": "a.next"
+    },
+    "product": {
+      "title": "h1.title",
+      "price": "p.price",
+      "availability": "p.stock",
+      "sku": {
+        "css": "span.sku",
+        "regex": "SKU:\\s*(\\S+)"
+      }
+    }
+  },
+  {
+    "name": "fr-maison",
+    "start_urls": [
+      "{BASE}/fr-maison/page-1.html"
+    ],
+    "default_currency": "EUR",
+    "listing": {
+      "item_link": "a.product-link",
+      "next_page": "a.next"
+    },
+    "product": {
+      "title": "h1.title",
+      "price": "p.price",
+      "availability": "p.stock",
+      "sku": {
+        "css": "span.sku",
+        "regex": "SKU:\\s*(\\S+)"
+      }
+    }
+  },
+  {
+    "name": "in-electronics",
+    "start_urls": [
+      "{BASE}/in-electronics/page-1.html"
+    ],
+    "default_currency": "INR",
+    "listing": {
+      "item_link": "a.product-link",
+      "next_page": "a.next"
+    },
+    "product": {
+      "title": "h1.title",
+      "price": "p.price",
+      "availability": "p.stock",
+      "sku": {
+        "css": "span.sku",
+        "regex": "SKU:\\s*(\\S+)"
+      }
+    }
+  },
+  {
+    "name": "es-tienda",
+    "start_urls": [
+      "{BASE}/es-tienda/page-1.html"
+    ],
+    "default_currency": "USD",
+    "listing": {
+      "item_link": "a.product-link",
+      "next_page": "a.next"
+    },
+    "product": {
+      "title": "h1.title",
+      "price": "p.price",
+      "availability": "p.stock",
+      "sku": {
+        "css": "span.sku",
+        "regex": "SKU:\\s*(\\S+)"
+      }
+    }
+  }
+]
